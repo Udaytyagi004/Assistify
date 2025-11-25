@@ -1,10 +1,13 @@
+import HomePage from "./pages/HomePage";
 import LandingPage from "./pages/LandingPage";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
     <>
       <div>
-        <LandingPage />
+        {/* <LandingPage /> */}
+        <HomePage />
       </div>
     </>
   );

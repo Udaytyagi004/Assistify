@@ -2,7 +2,7 @@ import { featuresList } from "../utils/featuresList";
 import FeatureCard from "./FeatureCard";
 const Feature = () => {
   return (
-    <div className="text-gray-400 mx-15 p-12  border-gray-300">
+    <div className="text-gray-400 m-15 p-12 border  border-gray-900 rounded-lg shadow-xl">
       <h2 className="text-2xl  mb-2 font-bold">
         AI Agents that work like a chef to staff
       </h2>
