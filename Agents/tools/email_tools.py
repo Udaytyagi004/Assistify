@@ -9,7 +9,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 root_dir = os.path.abspath(os.path.join(current_dir, "../"))
 load_dotenv(os.path.join(root_dir, ".env"))
 
-def send_email_via_smtp(recipient: str, subject: str, body: str) -> str:
+def send_email_via_smtp(recipient_email: str, subject: str, body: str) -> str:
     """
     Sends an email via SMTP.
     Args:
